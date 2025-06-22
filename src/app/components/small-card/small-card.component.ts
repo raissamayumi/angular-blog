@@ -11,6 +11,9 @@ export class SmallCardComponent implements OnInit {
   photoCover:string = "";
   @Input()
   cartTitle:string = "";
+  @Input()
+  Id:string = "1";
+
   constructor() { }
 
   ngOnInit(): void {
